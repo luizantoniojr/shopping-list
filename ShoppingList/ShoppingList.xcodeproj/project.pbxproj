@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BF4821B625E5C80D00CB687A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821B525E5C80D00CB687A /* AppDelegate.swift */; };
-		BF4821B825E5C80D00CB687A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821B725E5C80D00CB687A /* SceneDelegate.swift */; };
 		BF4821BA25E5C80D00CB687A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821B925E5C80D00CB687A /* HomeViewController.swift */; };
 		BF4821BF25E5C81300CB687A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4821BE25E5C81300CB687A /* Assets.xcassets */; };
 		BF4821C225E5C81300CB687A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4821C025E5C81300CB687A /* LaunchScreen.storyboard */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		BF4821B225E5C80D00CB687A /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4821B525E5C80D00CB687A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF4821B725E5C80D00CB687A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF4821B925E5C80D00CB687A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BF4821BE25E5C81300CB687A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4821C125E5C81300CB687A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				BF4821CC25E5C9AD00CB687A /* Domain */,
 				BF4821CF25E5C9FC00CB687A /* Data */,
 				BF4821B525E5C80D00CB687A /* AppDelegate.swift */,
-				BF4821B725E5C80D00CB687A /* SceneDelegate.swift */,
 				BF4821BE25E5C81300CB687A /* Assets.xcassets */,
 				BF4821C025E5C81300CB687A /* LaunchScreen.storyboard */,
 				BF4821C325E5C81300CB687A /* Info.plist */,
@@ -191,7 +188,6 @@
 				BF4821BA25E5C80D00CB687A /* HomeViewController.swift in Sources */,
 				BF4821E525E5DE5500CB687A /* HomeWireFrame.swift in Sources */,
 				BF4821B625E5C80D00CB687A /* AppDelegate.swift in Sources */,
-				BF4821B825E5C80D00CB687A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
