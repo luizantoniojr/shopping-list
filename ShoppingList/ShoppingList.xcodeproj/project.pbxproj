@@ -13,6 +13,12 @@
 		BF4821C225E5C81300CB687A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4821C025E5C81300CB687A /* LaunchScreen.storyboard */; };
 		BF4821E525E5DE5500CB687A /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821E425E5DE5500CB687A /* HomeWireFrame.swift */; };
 		BF4821E825E5E55600CB687A /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4821DC25E5DCDD00CB687A /* Home.xib */; };
+		BF4821F725E740B500CB687A /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821F625E740B500CB687A /* Dao.swift */; };
+		BF4821FA25E7412700CB687A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821F925E7412700CB687A /* Section.swift */; };
+		BF4821FD25E7419700CB687A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821FC25E7419700CB687A /* Item.swift */; };
+		BF48220025E7440600CB687A /* SectionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821FF25E7440600CB687A /* SectionRepository.swift */; };
+		BF48220525E7464300CB687A /* SectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48220425E7464300CB687A /* SectionInteractor.swift */; };
+		BF48220825E746F300CB687A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48220725E746F300CB687A /* HomePresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		BF4821C325E5C81300CB687A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4821DC25E5DCDD00CB687A /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
 		BF4821E425E5DE5500CB687A /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		BF4821F625E740B500CB687A /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
+		BF4821F925E7412700CB687A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		BF4821FC25E7419700CB687A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BF4821FF25E7440600CB687A /* SectionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRepository.swift; sourceTree = "<group>"; };
+		BF48220425E7464300CB687A /* SectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInteractor.swift; sourceTree = "<group>"; };
+		BF48220725E746F300CB687A /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,8 @@
 		BF4821CD25E5C9D600CB687A /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				BF4821F925E7412700CB687A /* Section.swift */,
+				BF4821FC25E7419700CB687A /* Item.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -94,6 +108,7 @@
 		BF4821CE25E5C9E000CB687A /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				BF48220425E7464300CB687A /* SectionInteractor.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -101,6 +116,8 @@
 		BF4821CF25E5C9FC00CB687A /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				BF4821F625E740B500CB687A /* Dao.swift */,
+				BF4821FF25E7440600CB687A /* SectionRepository.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -111,6 +128,7 @@
 				BF4821B925E5C80D00CB687A /* HomeViewController.swift */,
 				BF4821DC25E5DCDD00CB687A /* Home.xib */,
 				BF4821E425E5DE5500CB687A /* HomeWireFrame.swift */,
+				BF48220725E746F300CB687A /* HomePresenter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -185,9 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4821FA25E7412700CB687A /* Section.swift in Sources */,
 				BF4821BA25E5C80D00CB687A /* HomeViewController.swift in Sources */,
+				BF48220525E7464300CB687A /* SectionInteractor.swift in Sources */,
+				BF48220025E7440600CB687A /* SectionRepository.swift in Sources */,
 				BF4821E525E5DE5500CB687A /* HomeWireFrame.swift in Sources */,
 				BF4821B625E5C80D00CB687A /* AppDelegate.swift in Sources */,
+				BF48220825E746F300CB687A /* HomePresenter.swift in Sources */,
+				BF4821FD25E7419700CB687A /* Item.swift in Sources */,
+				BF4821F725E740B500CB687A /* Dao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
