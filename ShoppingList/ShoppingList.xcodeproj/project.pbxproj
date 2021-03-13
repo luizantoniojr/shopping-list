@@ -19,6 +19,7 @@
 		BF48220025E7440600CB687A /* SectionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821FF25E7440600CB687A /* SectionRepository.swift */; };
 		BF48220525E7464300CB687A /* SectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48220425E7464300CB687A /* SectionInteractor.swift */; };
 		BF48220825E746F300CB687A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48220725E746F300CB687A /* HomePresenter.swift */; };
+		BF48220C25FD6AC100CB687A /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF48220B25FD6AC100CB687A /* SectionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BF4821FF25E7440600CB687A /* SectionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRepository.swift; sourceTree = "<group>"; };
 		BF48220425E7464300CB687A /* SectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInteractor.swift; sourceTree = "<group>"; };
 		BF48220725E746F300CB687A /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		BF48220B25FD6AC100CB687A /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				BF4821DC25E5DCDD00CB687A /* Home.xib */,
 				BF4821E425E5DE5500CB687A /* HomeWireFrame.swift */,
 				BF48220725E746F300CB687A /* HomePresenter.swift */,
+				BF48220B25FD6AC100CB687A /* SectionTableViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				BF4821FA25E7412700CB687A /* Section.swift in Sources */,
 				BF4821BA25E5C80D00CB687A /* HomeViewController.swift in Sources */,
 				BF48220525E7464300CB687A /* SectionInteractor.swift in Sources */,
+				BF48220C25FD6AC100CB687A /* SectionTableViewCell.swift in Sources */,
 				BF48220025E7440600CB687A /* SectionRepository.swift in Sources */,
 				BF4821E525E5DE5500CB687A /* HomeWireFrame.swift in Sources */,
 				BF4821B625E5C80D00CB687A /* AppDelegate.swift in Sources */,
