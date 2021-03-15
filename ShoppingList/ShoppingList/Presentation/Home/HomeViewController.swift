@@ -13,18 +13,53 @@ protocol HomeViewProtocol: class {
 
 class HomeViewController: UIViewController {
     
-    @IBOutlet weak var sectionTableView: UITableView!
-    
+    var titleLabel: UILabel!
+    var sectionTableView: UITableView!
     var presenter: HomePresenterProtocol!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        sectionTableView.delegate = self
-        sectionTableView.dataSource = self
+        
+        view.backgroundColor = .systemRed
+        
+        setupTitleLabel()
+        setupSectionTableView()
+        setupConstraint()
+    }
+    
+    private func setupTitleLabel() {
+        titleLabel = UILabel(frame: .zero)
+        titleLabel.text = "Hello, Luiz!"
+        titleLabel.textColor = .white
+        titleLabel.font = .boldSystemFont(ofSize: 22)
+        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(titleLabel)
+    }
+    
+    private func setupConstraint() {
+        NSLayoutConstraint.activate([
+            titleLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
+            titleLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20 ),
+            
+            sectionTableView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 20),
+            sectionTableView.leadingAnchor.constraint(equalTo: view.readableContentGuide.leadingAnchor, constant: 20),
+            sectionTableView.trailingAnchor.constraint(equalTo: view.readableContentGuide.trailingAnchor, constant: -20),
+            sectionTableView.bottomAnchor.constraint(equalTo: view.readableContentGuide.bottomAnchor, constant: -20)
+        ])
     }
 }
 
 extension HomeViewController : UITableViewDataSource, UITableViewDelegate  {
+    
+    private func setupSectionTableView() {
+        sectionTableView = UITableView(frame: .zero, style: .plain)
+        sectionTableView.translatesAutoresizingMaskIntoConstraints = false
+        sectionTableView.delegate = self
+        sectionTableView.dataSource = self
+        
+        view.addSubview(sectionTableView)
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presenter.numberOfRows

@@ -9,7 +9,7 @@ import UIKit
 
 class HomeWireFrame: NSObject {
     
-    let viewController = HomeViewController(nibName: "Home", bundle: nil)
+    let viewController = HomeViewController()
     let presenter = HomePresenter()
     
     override init() {

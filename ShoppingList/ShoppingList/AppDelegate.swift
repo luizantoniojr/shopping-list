@@ -14,11 +14,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var mainWireFrame = HomeWireFrame()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let window = UIWindow()
-        window.frame = UIScreen.main.bounds
+        
+        let window = UIWindow(frame: UIScreen.main.bounds)
         mainWireFrame.present(window: window)
+        window.makeKeyAndVisible()
         self.window = window
         
         return true
     }
 }
+	

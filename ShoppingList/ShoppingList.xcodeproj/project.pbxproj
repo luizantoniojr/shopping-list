@@ -12,7 +12,6 @@
 		BF4821BF25E5C81300CB687A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4821BE25E5C81300CB687A /* Assets.xcassets */; };
 		BF4821C225E5C81300CB687A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4821C025E5C81300CB687A /* LaunchScreen.storyboard */; };
 		BF4821E525E5DE5500CB687A /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821E425E5DE5500CB687A /* HomeWireFrame.swift */; };
-		BF4821E825E5E55600CB687A /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4821DC25E5DCDD00CB687A /* Home.xib */; };
 		BF4821F725E740B500CB687A /* Dao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821F625E740B500CB687A /* Dao.swift */; };
 		BF4821FA25E7412700CB687A /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821F925E7412700CB687A /* Section.swift */; };
 		BF4821FD25E7419700CB687A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4821FC25E7419700CB687A /* Item.swift */; };
@@ -29,7 +28,6 @@
 		BF4821BE25E5C81300CB687A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4821C125E5C81300CB687A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4821C325E5C81300CB687A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF4821DC25E5DCDD00CB687A /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
 		BF4821E425E5DE5500CB687A /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
 		BF4821F625E740B500CB687A /* Dao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dao.swift; sourceTree = "<group>"; };
 		BF4821F925E7412700CB687A /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				BF4821B925E5C80D00CB687A /* HomeViewController.swift */,
-				BF4821DC25E5DCDD00CB687A /* Home.xib */,
 				BF4821E425E5DE5500CB687A /* HomeWireFrame.swift */,
 				BF48220725E746F300CB687A /* HomePresenter.swift */,
 				BF48220B25FD6AC100CB687A /* SectionTableViewCell.swift */,
@@ -194,7 +191,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4821C225E5C81300CB687A /* LaunchScreen.storyboard in Resources */,
-				BF4821E825E5E55600CB687A /* Home.xib in Resources */,
 				BF4821BF25E5C81300CB687A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
